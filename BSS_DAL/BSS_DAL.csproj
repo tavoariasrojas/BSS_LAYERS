@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9BD4F33E-BE26-4E61-B0B5-93E95DEEF64A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BSS_DAL</RootNamespace>
+    <AssemblyName>BSS_DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>..\BSS\Dlls\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\BSS\Dlls\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite">
+      <HintPath>..\BSS\Dlls\ServiceStack.OrmLite.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite.SqlServer">
+      <HintPath>..\BSS\Dlls\ServiceStack.OrmLite.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\BSS\Dlls\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>BD.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\ICategoria.cs" />
+    <Compile Include="Interfaces\ICitas_clientes.cs" />
+    <Compile Include="Interfaces\ICliente.cs" />
+    <Compile Include="Interfaces\ICompania.cs" />
+    <Compile Include="Interfaces\IControl_venta_credito.cs" />
+    <Compile Include="Interfaces\ICuenta_banco_proveedor.cs" />
+    <Compile Include="Interfaces\IDepartamento.cs" />
+    <Compile Include="Interfaces\IEmpleado.cs" />
+    <Compile Include="Interfaces\IEstado.cs" />
+    <Compile Include="Interfaces\IEstado_cita.cs" />
+    <Compile Include="Interfaces\IFac_detalle.cs" />
+    <Compile Include="Interfaces\IFac_maestro.cs" />
+    <Compile Include="Interfaces\IForma_pago_salario.cs" />
+    <Compile Include="Interfaces\IMarca.cs" />
+    <Compile Include="Interfaces\IMoneda.cs" />
+    <Compile Include="Interfaces\IPais.cs" />
+    <Compile Include="Interfaces\IProducto.cs" />
+    <Compile Include="Interfaces\IProveedor.cs" />
+    <Compile Include="Interfaces\IPuesto.cs" />
+    <Compile Include="Interfaces\ISeg_modulo.cs" />
+    <Compile Include="Interfaces\ISeg_opcion.cs" />
+    <Compile Include="Interfaces\ISeg_opcion_por_rol.cs" />
+    <Compile Include="Interfaces\ISeg_rol.cs" />
+    <Compile Include="Interfaces\ISeg_rol_por_usuario.cs" />
+    <Compile Include="Interfaces\ISeg_usuario.cs" />
+    <Compile Include="Interfaces\ISucursal.cs" />
+    <Compile Include="Interfaces\ITelefono_cliente.cs" />
+    <Compile Include="Interfaces\ITelefono_proveedor.cs" />
+    <Compile Include="Interfaces\ITipoMovimiento.cs" />
+    <Compile Include="Interfaces\ITipo_identificacion.cs" />
+    <Compile Include="Interfaces\ITipo_pago.cs" />
+    <Compile Include="Interfaces\ITipo_producto.cs" />
+    <Compile Include="Interfaces\ITipo_prod_serv.cs" />
+    <Compile Include="Interfaces\ITipo_telefono.cs" />
+    <Compile Include="Interfaces\ITipo_venta.cs" />
+    <Compile Include="Interfaces\IUnidad_medida.cs" />
+    <Compile Include="Metodos\MCategoria.cs" />
+    <Compile Include="Metodos\MCitas_clientes.cs" />
+    <Compile Include="Metodos\MCliente.cs" />
+    <Compile Include="Metodos\MCompania.cs" />
+    <Compile Include="Metodos\MConnection.cs" />
+    <Compile Include="Metodos\MContro_venta_credito.cs" />
+    <Compile Include="Metodos\MCuenta_banco_proveedor.cs" />
+    <Compile Include="Metodos\MDepartamento.cs" />
+    <Compile Include="Metodos\MEmpleado.cs" />
+    <Compile Include="Metodos\MEstado.cs" />
+    <Compile Include="Metodos\MEstado_cita.cs" />
+    <Compile Include="Metodos\MFac_detalle.cs" />
+    <Compile Include="Metodos\MFac_maestro.cs" />
+    <Compile Include="Metodos\MForma_pago_salario.cs" />
+    <Compile Include="Metodos\MMarca.cs" />
+    <Compile Include="Metodos\MMoneda.cs" />
+    <Compile Include="Metodos\MPais.cs" />
+    <Compile Include="Metodos\MProducto.cs" />
+    <Compile Include="Metodos\MProveedor.cs" />
+    <Compile Include="Metodos\MPuesto.cs" />
+    <Compile Include="Metodos\MSeg_modulo.cs" />
+    <Compile Include="Metodos\MSeg_opcion.cs" />
+    <Compile Include="Metodos\MSeg_opcion_por_rol.cs" />
+    <Compile Include="Metodos\MSeg_rol.cs" />
+    <Compile Include="Metodos\MSeg_rol_por_usuario.cs" />
+    <Compile Include="Metodos\MSeg_usuario.cs" />
+    <Compile Include="Metodos\MSucursal.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="BD.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>BD.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BSS_DATA\BSS_DATA.csproj">
+      <Project>{2be958da-6d44-4e75-9a7c-f3c3619d95c6}</Project>
+      <Name>BSS_DATA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
