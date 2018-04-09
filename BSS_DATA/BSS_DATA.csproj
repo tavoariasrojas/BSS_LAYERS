@@ -80,6 +80,7 @@
     <Compile Include="Tipo_telefono.cs" />
     <Compile Include="Tipo_venta.cs" />
     <Compile Include="Unidad_medida.cs" />
+    <Compile Include="VerProducto.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

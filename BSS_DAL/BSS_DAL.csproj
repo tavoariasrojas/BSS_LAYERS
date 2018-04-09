@@ -123,6 +123,8 @@
     <Compile Include="Metodos\MSeg_rol_por_usuario.cs" />
     <Compile Include="Metodos\MSeg_usuario.cs" />
     <Compile Include="Metodos\MSucursal.cs" />
+    <Compile Include="Metodos\MTipo_producto.cs" />
+    <Compile Include="Metodos\MUnidad_medida.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
