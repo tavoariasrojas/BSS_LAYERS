@@ -6,7 +6,8 @@ namespace DAL.Interfaces
     public interface IProducto
     {
         List<Producto> ListarProductos();
-        Producto BuscarMoneda(long prod_codigo);
+        List<VerProducto> VerProductos();
+        Producto BuscarProducto(long prod_codigo);
         void InsertarProducto(Producto producto);
         void ActualizarProducto(Producto producto);
         void EliminarProducto(long prod_codigo);

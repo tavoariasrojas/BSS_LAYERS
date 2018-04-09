@@ -1,4 +1,6 @@
-﻿namespace BSS_DATA
+﻿using ServiceStack.DataAnnotations;
+
+namespace BSS_DATA
 {
     public class Producto
     {
@@ -23,3 +25,4 @@
         public decimal prod_medida { get; set; }
     }
 }
+
