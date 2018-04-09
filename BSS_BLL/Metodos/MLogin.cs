@@ -10,5 +10,10 @@ namespace BSS_BLL.Metodos
         {
             return login.BuscarSegUsuario(usuario, clave);
         }
+
+        public Seg_usuario BuscarSegUsuario(string su_usuario)
+        {
+            return login.BuscarSegUsuario(su_usuario);
+        }
     }
 }

@@ -11,3 +11,16 @@ C:\Users\Gustavo\Source\BSS_LAYERS\BSS_DAL\bin\Debug\BSS_DATA.pdb
 C:\Users\Gustavo\Source\BSS_LAYERS\BSS_DAL\obj\Debug\BSS_DAL.csprojResolveAssemblyReference.cache
 C:\Users\Gustavo\Source\BSS_LAYERS\BSS_DAL\obj\Debug\BSS_DAL.dll
 C:\Users\Gustavo\Source\BSS_LAYERS\BSS_DAL\obj\Debug\BSS_DAL.pdb
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DAL\obj\Debug\BSS_DAL.csprojResolveAssemblyReference.cache
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DAL\bin\Debug\BSS_DAL.dll.config
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DAL\bin\Debug\BSS_DAL.dll
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DAL\bin\Debug\BSS_DAL.pdb
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DAL\bin\Debug\BSS_DATA.dll
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DAL\bin\Debug\ServiceStack.Common.dll
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DAL\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DAL\bin\Debug\ServiceStack.OrmLite.dll
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DAL\bin\Debug\ServiceStack.OrmLite.SqlServer.dll
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DAL\bin\Debug\ServiceStack.Text.dll
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DAL\bin\Debug\BSS_DATA.pdb
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DAL\obj\Debug\BSS_DAL.dll
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DAL\obj\Debug\BSS_DAL.pdb

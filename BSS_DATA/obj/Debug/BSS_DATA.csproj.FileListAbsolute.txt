@@ -4,3 +4,8 @@ C:\Users\Gustavo\Source\BSS_LAYERS\BSS_DATA\bin\Debug\ServiceStack.Interfaces.dl
 C:\Users\Gustavo\Source\BSS_LAYERS\BSS_DATA\obj\Debug\BSS_DATA.csprojResolveAssemblyReference.cache
 C:\Users\Gustavo\Source\BSS_LAYERS\BSS_DATA\obj\Debug\BSS_DATA.dll
 C:\Users\Gustavo\Source\BSS_LAYERS\BSS_DATA\obj\Debug\BSS_DATA.pdb
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DATA\bin\Debug\BSS_DATA.dll
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DATA\bin\Debug\BSS_DATA.pdb
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DATA\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DATA\obj\Debug\BSS_DATA.dll
+C:\Users\jdgs1\Source\Repos\BSS_LAYERS\BSS_DATA\obj\Debug\BSS_DATA.pdb

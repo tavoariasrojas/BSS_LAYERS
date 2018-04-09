@@ -16,24 +16,52 @@ namespace BSS
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            try
+            {
+                if (!IsCrossPagePostBack)
+                {
+                    if (Session["nombre"] == null)
+                    {
+                        Session.Clear();
+                    }
+                    else
+                    {
+                        Response.Redirect("Accesso.asp");
+                    }
+                }
+                Session.Clear();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
             //Session.Abandon();
-            Session.Clear();
+            
             //Session["nombre"] = null;
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            var acceso = login.ValidarUsuario(txtUsuario.Text, txtClave.Text);
-            if (acceso != null)
+            try
             {
-                Session["usuario"] = acceso.su_usuario;
-                Session["nombre"] = acceso.su_nombre_completo;
-                Response.Redirect("Principal.aspx");
+                var acceso = login.ValidarUsuario(txtUsuario.Text, txtClave.Text);
+                if (acceso != null)
+                {
+                    Session["usuario"] = acceso.su_usuario;
+                    Session["nombre"] = acceso.su_nombre_completo;
+                    Response.Redirect("Principal.aspx");
+                }
+                else
+                {
+                    aviso.Visible = true;
+                }
             }
-            else
+            catch (Exception ex)
             {
-                aviso.Visible = true;
+                throw ex;
             }
+            
         }
     }
 }

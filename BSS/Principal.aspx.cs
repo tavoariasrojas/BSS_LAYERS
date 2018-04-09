@@ -11,17 +11,25 @@ namespace BSS
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            try
             {
-                if (Session["nombre"] == null)
+                if (!IsPostBack)
+                {
+                    if (Session["nombre"] == null)
+                    {
+                        Response.Redirect("Acceso.aspx");
+                    }
+                }
+                else
                 {
                     Response.Redirect("Acceso.aspx");
                 }
             }
-            else
+            catch (Exception ex)
             {
-                Response.Redirect("Acceso.aspx");
+                throw ex;
             }
+            
             
         }
     }

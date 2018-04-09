@@ -70,7 +70,7 @@
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><span class="glyphicon glyphicon-user"></span><asp:Label ID="nombre" runat="server"></asp:Label></a></li>
+                        <li><a href="Perfil.aspx"><span class="glyphicon glyphicon-user"></span><asp:Label ID="nombre" runat="server"></asp:Label></a></li>
                         <li><a href="Acceso.aspx" style="color:lawngreen"><span class="glyphicon glyphicon-log-in"></span> Cerrar sesión</a></li>
                         
                     </ul>
